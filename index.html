@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DripStore</title>
     <style>
-
         h4{
             display: flex;
             justify-content: center;
@@ -14,45 +13,39 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            border: 1px solid black;
             gap: 40px;
         }
-
         .icon{
-            border: 1px solid black;
             text-align: center;
             padding: 10px;
         }
-
     </style>
 </head>
 <body>
-
     <div>
         <h4>Coleção em destaque</h4>
     <div class="colecao">
         <div class="icon">
-            <img src="data:image/png;base64,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" alt="Imagem 1">
+            <img src="/icones/tshirt-_1_.png" alt="Imagem 1">
             <p>Camisetas</p>
         </div>
         <div class="icon">
             <img src="/icones/pants.png" alt="Imagem 2">
             <p>Calças</p>
         </div>
-        <div>
+        <div class="icon">
             <img src="/icones/pants.png" alt="Imagem 3">
             <p>Bonés</p>
         </div>
-        <div>
+        <div class="icon">
             <img src="/icones/Group 53586 (1).png" alt="Imagem 4">
             <p>Headphones</p>
         </div>
-        <div>
+        <div class="icon">
             <img src="/icones/Group 53586 (2).png" alt="Imagem 5">
             <p>Tênis</p>
         </div>
     </div>
-    
     </div>
 </body>
 </html>
