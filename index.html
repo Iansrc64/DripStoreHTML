@@ -3,12 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>DripStore</title>
+
     <style>
         h4{
             display: flex;
             justify-content: center;
         }
+
+        .container{
+            display: flex;
+            border: solid 1px black;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+        .banner{
+            text-align: center;
+            padding: 10px;
+            border: solid 1px black;
+        }
+
         .colecao{
             display: flex;
             justify-content: center;
@@ -19,9 +35,46 @@
             text-align: center;
             padding: 10px;
         }
+        .botao{
+            border: solid 2px #f0f0f0;
+            border-radius: 20px;
+            color: rgb(247, 6, 194);
+            background-color: #ffffff   ;
+        }
+
     </style>
 </head>
+
 <body>
+
+    <div >
+        <h3>Coleção em destaque</h3>
+    <div class="container">
+        <div class="banner">
+
+            <h2>Novo drop supreme</h2>
+            <div 
+                class="botao">Comprar
+            </div>
+        </div>
+        <div class="banner">
+           
+            <h2>Coleção Adidas</h2>
+            <div 
+                class="botao">Comprar
+            </div>
+        </div>
+        <div class="banner">
+            
+            <h2>Novo Beat Bass</h2>
+            <div 
+                class="botao">Comprar
+            </div>
+        </div>
+    </div>
+    </div>
+
+
     <div>
         <h4>Coleção em destaque</h4>
     <div class="colecao">
@@ -47,5 +100,6 @@
         </div>
     </div>
     </div>
+
 </body>
 </html>
